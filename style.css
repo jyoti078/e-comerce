@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 100px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(165, 42, 42, 0.826);
+    align-items: end;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+}
+
+
+
+.logo{
+    font-weight: 800;
+    color: rgb(43, 25, 178);
+    font-size: 30px;
+}
+
+
+.menu{
+    width: 60%; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(165, 42, 42, 0.826);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.menu a:hover{
+  
+     color:#2ecc71;
+
+}
+
+header{
+    width: 82%;
+    margin-left: 9.5%;
+    margin-top: 2%;
+}
+.bg-img{
+    height: 500px;
+    width: 100%;
+   background-image: url(./images/header-img.jpg) ;
+   background-size: cover;
+    display: flex;
+    align-items: end;
+}
+
+.bg-img p{
+   margin-left: 4%;
+   margin-bottom: 4%;
+   font-size: 2em;
+   font-weight: 600;
+}
+
+.text{
+    width: 40%;
+    margin-top: 1.5%;
+}
+
+.home-btn{
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgba(133, 54, 54, 0.712);
+    border-radius: 20px;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+
+.home-btn:hover{
+    background-color:transparent;
+    border: 1px solid black;
+}
+
+  .images .img{
+    margin-top: 3%;
+    margin-left: 2%;
+    height: 180px;
+    width: 200px;
+    
+}
+
+.img1{
+    background-image: url(./images/front-1.jpg);
+    background-size: cover;
+
+    
+}
+
+.img2{
+    background-image: url(./images/front-2.webp);
+    background-size: cover;
+}
+.img3{
+    background-image: url(./images/front-3.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images{
+    display: flex;  
+   justify-content: space-between;
+
+}
+
+.images img{
+    margin-right: 2%;
+}
+
+   /* ending of first page */
+
+
+.about{
+    width: 82%;
+    margin-left: 9.5%;
+    margin-top: 10%;
+}
+
+.about-img{
+    background-color: aqua;
+    height: 600px;
+    width: 500px;
+    background-image:url(./images/about.jpg) ;
+    background-size: cover;
+}
+
+.about-container{
+    display: flex;
+    justify-content:space-between;
+
+
+}
+
+
+.about-text{
+    /* height: 500px;
+    width: 600px; */
+    flex-basis: 47%;
+    
+
+}
+ .ceo{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .8em;
+ }
+
+ .about-text h1{
+ text-transform: capitalize;
+ letter-spacing: 1px;
+ font-weight: 900;
+ font-size: 3em;
+ }
+ .about-text .text1{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 2%;
+ }
+
+ .about-text .text2{
+     
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+ }
+
+ .about-btn{
+    
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    background-color: purple;
+    border-radius: 20px;
+    cursor: pointer;
+     float: right;
+
+    
+    
+} 
+
+.about-btn:hover{
+    background-color:transparent;
+    border: 1px solid black;
+    
+}
+ 
+/* ...about section end... */
+
+
+.courses{
+    width: 82%;
+    margin-left: 9.5%;
+    margin-top: 10%;
+}
+
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 .content{
+    flex-basis: 50%;
+}
+
+.courses-btn1 button{
+   
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    background-color: purple;
+    border-radius: 20px;
+    cursor: pointer;
+     float: right;
+}
+
+
